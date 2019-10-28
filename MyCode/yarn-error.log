@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /home/mitchell/.yarn/bin/yarn.js add hapi-joi
+
+PATH: 
+  /home/mitchell/.yarn/bin:/home/mitchell/.config/yarn/global/node_modules/.bin:/home/mitchell/.rvm/gems/ruby-2.3.5/bin:/home/mitchell/.rvm/gems/ruby-2.3.5@global/bin:/home/mitchell/.rvm/rubies/ruby-2.3.5/bin:/home/mitchell/bin:/home/mitchell/.local/bin:/home/mitchell/.yarn/bin:/home/mitchell/.config/yarn/global/node_modules/.bin:/home/mitchell/bin:/home/mitchell/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mitchell/.rvm/bin:/home/mitchell/Android/Sdk/tools:/home/mitchell/Android/Sdk/tools/bin:/home/mitchell/Android/Sdk/platform-tools:/home/mitchell/.rvm/bin:/home/mitchell/.rvm/bin:/home/mitchell/Android/Sdk/tools:/home/mitchell/Android/Sdk/tools/bin:/home/mitchell/Android/Sdk/platform-tools:/home/mitchell/.rvm/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hapi-joi: Not found
+      at Request.params.callback [as _callback] (/home/mitchell/.yarn/lib/cli.js:61073:18)
+      at Request.self.callback (/home/mitchell/.yarn/lib/cli.js:120166:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/home/mitchell/.yarn/lib/cli.js:121138:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/home/mitchell/.yarn/lib/cli.js:121060:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "mycode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
